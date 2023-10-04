@@ -15,25 +15,104 @@ const Industry = () => {
                 <i>Zero Weight.</i>
               </p>
 
-              <ul>
-                <li>1. Professional Services.</li>
-                <li>2. Financial or Insurance Services.</li>
-                <li>3. Food & Beverages.</li>
-                <li>4. Manufacturing & Assembly.</li>
-                <li>5. Wholesale & Retail.</li>
-                <li>6. Betting & Gaming.</li>
-              </ul>
-              <br />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Professional Services
+                  </label>
+                </div>
 
-              <button type="button">
-                <b>
-                  <Link to="/Employees">Next</Link>
-                </b>
-              </button>
-              {"      "}
-              <button type="button">
-                <Link to="/BusinessType">Previous</Link>
-              </button>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Financial or Insurance Services
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Food & Beverages
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Manufacturing & Assembly
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Wholesale & Retail
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Betting & Gaming
+                  </label>
+                </div>
+                </div>
+                <br />
+
+                <br />
+
+                <button type="button">
+                  <Link to="/BusinessType">Previous</Link>
+                </button>
+                {"      "}
+                <button type="button">
+                  <b>
+                    <Link to="/Employees">Next</Link>
+                  </b>
+                </button>
+             
             </div>
             <div className="offset-lg-1 col-lg-6 col-md-12 col-sm-12 align-self-center"></div>
           </div>

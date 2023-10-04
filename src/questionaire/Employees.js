@@ -12,22 +12,68 @@ const Employees = () => {
                 <b>How many employees do you have?</b>
               </h4>
               <p>It will take about 5 minutes to complete.</p>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  0 - 10
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  10 - 50
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  50 - 100
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Above 100
+                </label>
+              </div>
+              <br />
+
               <div className="email-box">
-                <ul>
-                  <li>1. 0 - 10</li>
-                  <li>2. 10 - 50</li>
-                  <li>3. 50 - 100</li>
-                  <li>4. Above 100</li>
-                </ul>
-                <br />
+                <button type="button">
+                  <Link to="/Industry">Previous</Link>
+                </button>
+                {"      "}
                 <button type="button">
                   <b>
                     <Link to="/Turnover">Next</Link>
                   </b>
-                </button>
-                {"      "}
-                <button type="button">
-                  <Link to="/Industry">Previous</Link>
                 </button>
               </div>
             </div>

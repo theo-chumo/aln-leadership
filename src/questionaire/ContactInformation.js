@@ -11,77 +11,51 @@ const ContactInformation = () => {
               <h4>
                 <b>Contact Information</b>
               </h4>
-              <p>
-                <i>Zero Weight.</i>
-              </p>
+              <br />
+
               <div className="email-box">
                 <form>
-                  <table>
-                    <tr>
-                      <td>
-                        {" "}
-                        <label for="test">
-                          <b>First Name: </b>
-                        </label>
-                      </td>
-                      <td>
-                        {" "}
-                        <input placeholder="First Name" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        {" "}
-                        <label for="test">
-                          <b>Last Name: </b>
-                        </label>
-                      </td>
-                      <td>
-                        <input placeholder="Last Name" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label for="test">
-                          <b>Phone: </b>
-                        </label>
-                      </td>
-                      <td>
-                        <input placeholder="Phone Number" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label for="test">
-                          <b>Name of Business: </b>
-                        </label>
-                      </td>
-                      <td>
-                        <input placeholder="Name of Business" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        {" "}
-                        <label for="test">
-                          <b>Email Address: </b>
-                        </label>
-                      </td>
-                      <td>
-                        <input placeholder="Email Address" />
-                      </td>
-                    </tr>
-                  </table>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter email"
+                    />
+                  </div>
 
-                  <br />
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter First Name"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter Last Name"
+                    />
+                  </div>
+
+                  <button type="button">
+                    <Link to="/DataProtectionNotice">Previous</Link>
+                  </button>
+                  {"      "}
                   <button type="button">
                     <b>
                       <Link to="/BusinessType">Next</Link>
                     </b>
-                  </button>
-                  {"      "}
-                  <button type="button">
-                    <Link to="/DataProtectionNotice">Previous</Link>
                   </button>
                 </form>
               </div>

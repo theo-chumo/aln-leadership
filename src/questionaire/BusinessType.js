@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const BusinessType = () => {
+  const alignLeft = {
+    color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Arial",
+  };
+
   return (
     <div className="welcome-area" id="welcome">
       <div className="header-text">
@@ -14,24 +21,90 @@ const BusinessType = () => {
               <p>
                 <i>Zero Weight.</i>
               </p>
-              <div className="email-box">
-                <ul>
-                  <li>1. Private Limited Company</li>
-                  <li>2. Branch of a Foreign Company</li>
-                  <li>3. Company limited by Guarantee</li>
-                  <li>4. Non Government Organization</li>
-                  <li>5. Partnerships</li>
-                </ul>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Private Limited Company
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Branch of a Foreign Company
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Company limited by Guarantee
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Non Government Organization
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Partnerships
+                  </label>
+                </div>
                 <br />
-                <button type="button">
-                  <b>
-                    <Link to="/Industry">Next</Link>
-                  </b>
-                </button>
-                {"      "}
-                <button type="button">
-                  <Link to="/ContactInformation">Previous</Link>
-                </button>
+
+                <div className="email-box">
+                  <button type="button">
+                    <Link to="/ContactInformation">Previous</Link>
+                  </button>
+                  {"      "}
+                  <button type="button">
+                    <b>
+                      <Link to="/Industry">Next</Link>
+                    </b>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="offset-lg-1 col-lg-6 col-md-12 col-sm-12 align-self-center"></div>

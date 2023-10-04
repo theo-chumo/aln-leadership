@@ -23,12 +23,12 @@ const DataProtectionNotice = () => {
             <br />
             <br />
             <button type="button">
-              <Link to="/ContactInformation">Consent and Proceed</Link>
+              <Link to="/">Reject and Close</Link>
             </button>
             {"      "}
-            <button type="button" >
+            <button type="button">
               <b>
-                <Link to="/">Reject and Close</Link>
+                <Link to="/ContactInformation">Consent and Proceed</Link>
               </b>
             </button>
           </div>

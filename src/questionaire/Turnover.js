@@ -15,21 +15,68 @@ const Turnover = () => {
                 </b>
               </h4>
               <p>It will take about 5 minutes to complete.</p>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
+               
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                Less than KES 5,000,000
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                KES 5,000,000 to KES 100,000,000
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                Above KES 100,000,000/-
+                </label>
+              </div>
+              <br/>
+
+              </div>
+
               <div className="email-box">
-                <ul>
-                  <li>1. Less than KES 5,000,000 </li>
-                  <li>2. KES 5,000,000 to KES 100,000,000</li>
-                  <li>3. Above KES 100,000,000/-</li>
-                </ul>
-                <br />
+             
+
                 <button type="button">
-                  <b>
-                    <Link to="/">Next</Link>
-                  </b>
+                  <Link to="/Employees">Previous</Link>
                 </button>
                 {"      "}
                 <button type="button">
-                  <Link to="/Employees">Previous</Link>
+                  <b>
+                    <Link to="/TaxAssessmentChart">Next</Link>
+                  </b>
                 </button>
               </div>
             </div>

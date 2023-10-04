@@ -19,6 +19,7 @@ import Employees from "./questionaire/Employees";
 import Industry from "./questionaire/Industry";
 import Turnover from "./questionaire/Turnover";
 import Questionaire from "./Questionaire";
+import TaxAssessmentChart from "./reports/TaxAssessmentChart"
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="Employees" element={<Employees />} />
         <Route path="Industry" element={<Industry />} />
         <Route path="Turnover" element={<Turnover />} />
+        <Route path="TaxAssessmentChart" element={<TaxAssessmentChart />} />
       </Routes>
       {/* <Header />
       <Welcome />

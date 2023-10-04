@@ -15,10 +15,9 @@ const FeaturesSmall = () => {
                   <div className="icon">
                     <i className="fa fa-check-square-o"></i>
                   </div>
-                  <h5 className="features-title">Manage In One Place</h5>
+                  <h5 className="features-title">100% Secure Service</h5>
                   <p>
-                    Morbilling pharetra sapiening ut mattis viverra. Curabitur
-                    magna.
+                    Assess the Tax Compliance of your business from anywhere at anytime!
                   </p>
                 </a>
               </div>
@@ -33,10 +32,9 @@ const FeaturesSmall = () => {
                   <div className="icon">
                     <i className="fa fa-bed"></i>
                   </div>
-                  <h5 className="features-title">Selling More Rooms</h5>
+                  <h5 className="features-title">Automated and Seamless Solutions</h5>
                   <p>
-                    Donec pellentesque turpis utium lorem imperdiet semper
-                    viverra.
+                    Powered by best in class algorithms and machine learning toolsets.
                   </p>
                 </a>
               </div>
@@ -48,10 +46,9 @@ const FeaturesSmall = () => {
                   <div className="icon">
                     <i className="fa fa-bar-chart"></i>
                   </div>
-                  <h5 className="features-title">Know Your Numbers</h5>
+                  <h5 className="features-title">Access the top Tax Advisors In Kenya</h5>
                   <p>
-                    Facilisis arcu ligula, malesuada id tincidunt laoreet,
-                    facilisis at justo.
+                    Backed by the A&K Tax Advisors who have advised top matters in Kenya,
                   </p>
                 </a>
               </div>
@@ -63,7 +60,7 @@ const FeaturesSmall = () => {
                   <div className="icon">
                     <i className="fa fa-shopping-cart"></i>
                   </div>
-                  <h5 className="features-title">Fast & Secure Sales</h5>
+                  <h5 className="features-title">Free and Always Upto Date</h5>
                   <p>
                     Proin arcu ligula, malesuada id tincidunt laoreet, facilisis
                     at justo.

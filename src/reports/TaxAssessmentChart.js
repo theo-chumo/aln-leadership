@@ -30,7 +30,7 @@ const RadarChartExample = () => {
 
                 <div className="email-box">
                   <button>
-                    <Link to="/DataProtectionNotice">Start Now</Link>
+                    <Link to="/DataProtectionNotice">Access Your Personalized Report Now</Link>
                   </button>
                 </div>
               </div>

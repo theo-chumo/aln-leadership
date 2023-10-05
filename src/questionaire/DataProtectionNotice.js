@@ -7,7 +7,7 @@ const DataProtectionNotice = () => {
       <div className="header-text">
         <div className="container">
           <div className="alert alert-success" role="alert">
-            <b>⚠️ Welcome to A&K Tax Health Check Toolkit. ⚠️</b> <br />
+            <b>⚠️ Welcome to ALN Compliance Health Check  Toolkit. ⚠️</b> <br />
             <br />
             In line with the Data Protection Act, we are required to notify you
             that by using this toolkit, you consent to have the information you

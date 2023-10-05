@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const RadarChartExample = () => {
   const data = [
-    { category: "Compliance", value: 7 },
+    { category: "Scoring", value: 7 },
     { category: "Financials", value: 5 },
     { category: "Documentation", value: 9 },
     { category: "Reporting", value: 6 },
@@ -25,12 +25,14 @@ const RadarChartExample = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-12 align-self-center">
-                <h1>Evaluation Completed Successfully.</h1>
+                <h3>Evaluation Completed Successfully.</h3>
                 <p>Click to the button below to access your free Report.</p>
 
                 <div className="email-box">
                   <button>
-                    <Link to="/DataProtectionNotice">Access Your Personalized Report Now</Link>
+                    <Link to="https://drive.google.com/file/d/1Plnh8Miky_SgSHIdtlYWm6LTPhlFTZDI/view?usp=sharing">
+                      Access Your Personalized Report Now
+                    </Link>
                   </button>
                 </div>
               </div>

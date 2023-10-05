@@ -12,7 +12,7 @@ const Industry = () => {
                 <b>Nature of Business or Industry</b>
               </h4>
               <p>
-                <i>Zero Weight.</i>
+                <i>Weighted.</i>
               </p>
 
               <div

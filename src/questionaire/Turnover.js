@@ -14,7 +14,7 @@ const Turnover = () => {
                   financial year?
                 </b>
               </h4>
-              <p>It will take about 5 minutes to complete.</p>
+              <p>Weighted.</p>
 
               <div
                 style={{

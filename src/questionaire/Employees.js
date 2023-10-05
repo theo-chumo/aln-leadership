@@ -11,7 +11,7 @@ const Employees = () => {
               <h4>
                 <b>How many employees do you have?</b>
               </h4>
-              <p>It will take about 5 minutes to complete.</p>
+              <p>Weighted.</p>
 
               <div class="form-check">
                 <input

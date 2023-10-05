@@ -25,7 +25,7 @@ const RadarChartExample = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-12 align-self-center">
-                <h1>Evaluation Completed Sucessfully.</h1>
+                <h1>Evaluation Completed Successfully.</h1>
                 <p>Click to the button below to access your free Report.</p>
 
                 <div className="email-box">

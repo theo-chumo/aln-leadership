@@ -7,9 +7,10 @@ const QuestionaireStart = () => {
       <div className="header-text">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-md-12 col-sm-12 align-self-center">
-              <h1>Welcome to A&K e-Triage</h1>
-              <h2>Begin your Organization's Self Assessment Now.</h2>
+            <div>
+              <h2><b>Welcome to ALN e-Triage</b></h2>
+              <hr/>
+              <h3>Begin your Organization's Self Assessment Now.</h3>
               <p>It will take about 2 minutes to complete.</p>
               
               <div className="email-box">

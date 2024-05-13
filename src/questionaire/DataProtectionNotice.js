@@ -7,12 +7,11 @@ const DataProtectionNotice = () => {
       <div className="header-text">
         <div className="container">
           <div className="alert alert-success" role="alert">
-            <b>⚠️ Welcome to ALN Compliance Health Check  Toolkit. ⚠️</b> <br />
+            <b>⚠️ Welcome to ALN e-Triage. ⚠️</b> <br />
             <br />
             In line with the Data Protection Act, we are required to notify you
             that by using this toolkit, you consent to have the information you
-            will share on the toolkit being stored and used by Anjarwalla &
-            Khanna for purposes of providing you with advice relating to your
+            will share on the toolkit being stored and used by ALN for purposes of providing you with advice relating to your
             tax health status.
             <br />
             <br /> Your contact information may also be used to share alerts and

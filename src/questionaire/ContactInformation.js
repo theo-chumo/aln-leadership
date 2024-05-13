@@ -9,7 +9,7 @@ const ContactInformation = () => {
           <div className="row">
             <div className="col-lg-5 col-md-12 col-sm-12 align-self-center">
               <h4>
-                <b>Contact Information</b>
+                <b>Contact Person Information</b>
               </h4>
               <br />
 

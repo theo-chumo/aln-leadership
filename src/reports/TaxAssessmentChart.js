@@ -30,7 +30,7 @@ const RadarChartExample = () => {
 
                 <div className="email-box">
                   <button>
-                    <Link to="https://drive.google.com/file/d/1Plnh8Miky_SgSHIdtlYWm6LTPhlFTZDI/view?usp=sharing">
+                    <Link to="https://drive.google.com/file/d/1l7XNXuEbCRfy5T0YI2vKx9RvYSq4xj7s/view?usp=sharing">
                       Access Your Personalized Report Now
                     </Link>
                   </button>

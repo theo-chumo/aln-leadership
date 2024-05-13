@@ -8,9 +8,9 @@ const QuestionaireStart = () => {
         <div className="container">
           <div className="row">
             <div>
-              <h2><b>Welcome to ALN e-Triage</b></h2>
+              <h3><b>Welcome to ALN e-Triage</b></h3>
               <hr/>
-              <h3>Begin your Organization's Self Assessment Now.</h3>
+              <h5>Begin your Organization's Self Assessment Now.</h5>
               <p>It will take about 2 minutes to complete.</p>
               
               <div className="email-box">
